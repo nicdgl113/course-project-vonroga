@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.1",
     "@vueuse/nuxt": "^10.9.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
