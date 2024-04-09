@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.1",
+    "@nuxtjs/robots": "^3.0.0",
     "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
