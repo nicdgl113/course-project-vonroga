@@ -1,15 +1,5 @@
 {
-  "name": "ezeval",
-  "version": "0.0.1",
-  "description": "A web application to simplify quoting window cleaning projects, ensuring fairness and accuracy for both the customer and the window cleaner.",
-  "keywords": [
-    "window cleaning",
-    "quote generation",
-    "price sheet",
-    "fair quote",
-    "transparent quote",
-    "evaluation tool"
-  ],
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
@@ -20,9 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@formkit/auto-animate": "^0.8.1",
-    "@nuxtjs/robots": "^3.0.0",
-    "@vueuse/nuxt": "^10.9.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-vue-next": "^0.366.0",
@@ -33,11 +20,9 @@
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
-  "author": "Ryan Paranich",
-  "license": "ICS",
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "nuxt-primevue": "^0.3.1",
-    "shadcn-nuxt": "^0.10.2"
+    "shadcn-nuxt": "^0.10.2",
+    "typescript": "^5.4.4"
   }
 }

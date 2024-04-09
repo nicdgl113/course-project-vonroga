@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1>App</h1>
+    <Button>Click me</Button>
   </div>
 </template>
