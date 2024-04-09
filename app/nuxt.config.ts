@@ -6,7 +6,9 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     '@vueuse/nuxt',
     '@formkit/auto-animate/nuxt',
-    'nuxt-icon',],
+    'nuxt-icon',
+    '@nuxtjs/supabase',
+  ],
   shadcn: {
     prefix: '',
     componentDir: './components/ui'
