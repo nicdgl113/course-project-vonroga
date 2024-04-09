@@ -23,7 +23,13 @@
     "@formkit/auto-animate": "^0.8.1",
     "@nuxtjs/robots": "^3.0.0",
     "@vueuse/nuxt": "^10.9.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-vue-next": "^0.366.0",
     "nuxt": "^3.11.2",
+    "radix-vue": "^1.6.2",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
