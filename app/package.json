@@ -30,6 +30,7 @@
   "author": "Ryan Paranich",
   "license": "ICS",
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.11.4"
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "nuxt-primevue": "^0.3.1"
   }
 }
