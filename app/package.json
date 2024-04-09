@@ -25,5 +25,8 @@
     "vue-router": "^4.3.0"
   },
   "author": "Ryan Paranich",
-  "license": "ICS"
+  "license": "ICS",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4"
+  }
 }
