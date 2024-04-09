@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@formkit/auto-animate':
+    specifier: ^0.8.1
+    version: 0.8.1
   '@vueuse/nuxt':
     specifier: ^10.9.0
     version: 10.9.0(nuxt@3.11.2)(vue@3.4.21)
@@ -19,6 +22,9 @@ dependencies:
     version: 4.3.0(vue@3.4.21)
 
 devDependencies:
+  '@nuxtjs/google-fonts':
+    specifier: ^3.2.0
+    version: 3.2.0
   '@nuxtjs/tailwindcss':
     specifier: ^6.11.4
     version: 6.11.4
@@ -679,6 +685,10 @@ packages:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
     dev: false
 
+  /@formkit/auto-animate@0.8.1:
+    resolution: {integrity: sha512-0/Z2cuNXWVVIG/l0SpcHAWFhGdvLJ8DRvEfRWvmojtmRWfEy+LWNwgDazbZqY0qQYtkHcoEK3jBLkhiZaB/4Ig==}
+    dev: false
+
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: false
@@ -1158,6 +1168,17 @@ packages:
       - vti
       - vue-tsc
     dev: false
+
+  /@nuxtjs/google-fonts@3.2.0:
+    resolution: {integrity: sha512-cGAjDJoeQ2jm6VJCo4AtSmKO6KjsbO9RSLj8q261fD0lMVNMZCxkCxBkg8L0/2Vfgp+5QBHWVXL71p1tiybJFw==}
+    dependencies:
+      '@nuxt/kit': 3.11.2
+      google-fonts-helper: 3.5.0
+      pathe: 1.1.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
 
   /@nuxtjs/tailwindcss@6.11.4:
     resolution: {integrity: sha512-09cksgZD4seQj054Z/BeiwFg1bzQTol8KPulLDLGnmMTkEi21vj/z+WlXQRpVbN1GS9+oU9tcSsu2ufXCM3DBg==}
@@ -3110,7 +3131,6 @@ packages:
   /deepmerge@4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
-    dev: false
 
   /default-browser-id@5.0.0:
     resolution: {integrity: sha512-A6p/pu/6fyBcA1TRz/GqWYPViplrftcW2gZC9q79ngNCKAeR/X3gcEdXQHl4KNXV+3wgIJ1CPkJQ3IHM6lcsyA==}
@@ -3668,6 +3688,15 @@ packages:
       path-type: 5.0.0
       slash: 5.1.0
       unicorn-magic: 0.1.0
+
+  /google-fonts-helper@3.5.0:
+    resolution: {integrity: sha512-QcKvB3Y+jJFpvBUp/iG1oe9BbKirrjwU2mzJzKGGb5czz6T93CCP9A8IlfCoZnko7b1+gPH3yVghXP5EBvunDg==}
+    dependencies:
+      deepmerge: 4.3.1
+      hookable: 5.5.3
+      ofetch: 1.3.4
+      ufo: 1.5.3
+    dev: true
 
   /graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
@@ -5038,7 +5067,6 @@ packages:
       destr: 2.0.3
       node-fetch-native: 1.6.4
       ufo: 1.5.3
-    dev: false
 
   /ohash@1.1.3:
     resolution: {integrity: sha512-zuHHiGTYTA1sYJ/wZN+t5HKZaH23i4yI1HMwbuXm24Nid7Dv0KcuRlKoNKS9UNfAVSBlnGLcuQrnOKWOZoEGaw==}

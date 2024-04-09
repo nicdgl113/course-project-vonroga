@@ -20,6 +20,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.1",
     "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
@@ -28,6 +29,7 @@
   "author": "Ryan Paranich",
   "license": "ICS",
   "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.11.4"
   }
 }
