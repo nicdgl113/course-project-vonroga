@@ -29,7 +29,6 @@
   "author": "Ryan Paranich",
   "license": "ICS",
   "devDependencies": {
-    "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.11.4"
   }
 }
