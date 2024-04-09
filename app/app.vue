@@ -1,5 +1,8 @@
 <template>
-  <div>
-    <Button>Click me</Button>
+  <div class="h-dvh bg-white">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
+  <Toaster />
 </template>
